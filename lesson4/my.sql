@@ -17,4 +17,4 @@ INSERT INTO CLASSMATES (name, age, address) VALUES ('Ava','31','Moskow');
 -- fetch 
 SELECT name AS имя 
 FROM CLASSMATES 
-WHERE address = 'Moskow' AND age > 17 AND age < 31;
+WHERE address = 'Moskow' AND age > 17 AND age < 30;
